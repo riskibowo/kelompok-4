@@ -1,4 +1,5 @@
 # Kelompok 4
+# Pengelolaan Surat Masuk dan Keluar
 ```
 1. Faiz Fauzi Muzakki (312210278) Ketua
 2. Ivan Fathurrochman Achmad (312210271)
@@ -11,7 +12,7 @@
 
 ## DDL (Data Definition Language), digunakan untuk mendefinisikan struktur tabel data.
 ![intro](https://github.com/riskibowo/kelompok-4/assets/115862112/ed983310-9ad2-4093-9395-e139c0b779bb)
-## 1 memanggil database di xampp
+## 1. Memanggil database di Xampp
 ```
 Setelah Anda memasukkan perintah "mysql -u root" di command prompt atau terminal,
 Anda akan diminta memasukkan kata sandi untuk pengguna root. Setelah memasukkan kata sandi,
@@ -21,7 +22,7 @@ Anda akan masuk ke shell MySQL sebagai pengguna root. Dari sini,
 
 ![pertama yg harus di lakukan](https://github.com/riskibowo/kelompok-4/assets/115862112/278b12c5-07ce-4f92-907c-58164c76852c)
 
-## 2 Membuat tabel instansi
+## 2. Membuat tabel instansi
 ```
 CREATE TABLE `instansi` (
   `kode_instansi` varchar(15) NOT NULL,
@@ -40,7 +41,7 @@ INSERT INTO `instansi` (`kode_instansi`, `nama_instansi`, `alamat`) VALUES
 
 <img width="546" alt="image" src="https://github.com/riskibowo/kelompok-4/assets/115862112/0038eab4-eaa8-425e-90c5-b808ee8594b4">
 
-## 3 membuat tabel pengguna
+## 3. Membuat tabel pengguna
 ```
 CREATE TABLE `pengguna` (
    `id_pengguna` int(10) NOT NULL,
@@ -62,7 +63,7 @@ INSERT INTO `pengguna` (`id_pengguna`, `username`, `password`, `nama_lengkap`, `
 
 ![image](https://github.com/riskibowo/kelompok-4/assets/115862112/93cf10c1-a1b2-45b2-ad74-0b77a05184c9)
 
-## 4 membuat tabel surat_keluar
+## 4. Membuat tabel surat_keluar
 ```
 CREATE TABLE `surat_keluar` (
    `no_surat` varchar(30) NOT NULL,
@@ -86,7 +87,7 @@ INSERT INTO `surat_keluar` (`no_surat`, `tgl_surat`, `perihal`, `sifat`, `lampir
 ```
 ![image](https://github.com/riskibowo/kelompok-4/assets/115862112/0d7d008d-8730-418c-a097-2418f1a7fb45)
 
-## 5 membuat tabel surat_masuk
+## 5. Membuat tabel surat_masuk
 ```
 CREATE TABLE `surat_masuk` (
   `no_surat` varchar(30) NOT NULL,
@@ -110,7 +111,7 @@ INSERT INTO `surat_masuk` (`no_surat`, `tgl_surat`, `tgl_diterima`, `perihal`, `
 ```
 ![image](https://github.com/riskibowo/kelompok-4/assets/115862112/89e7ee1f-2185-47a2-9e61-0188c1775fe9)
 
-## 6 menghapus tabel kolom
+## 6. Menghapus tabel kolom
 ```
 adalah nama tabel yang ingin Anda hapus kolomnya, dan "nama_kolom" adalah nama kolom yang ingin dihapus. Per
 ```
