@@ -2,8 +2,8 @@
 ```
 Johanes Mula Febrian Sihombing (312210224)
 Riski probo sadewo (312210191)
-faiz fauzi muzaki
-rafa pramuditya
+faiz fauzi muzaki (312210278)
+rafa pramuditya (312210181)
 ivan
 ```
 
