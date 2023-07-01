@@ -26,4 +26,24 @@ INSERT INTO `instansi` (`kode_instansi`, `nama_instansi`, `alamat`) VALUES
 ('Sp', 'PT.ACB', 'jl.B no.2'),
 ('Spp', 'PT.AB', 'jl.B no.3');
 ```
-<img width="561" alt="SELECT from instansi" src="https://github.com/riskibowo/kelompok-4/assets/115862112/adf5a16f-1d82-4ff1-a9e9-efca3dff9fdc">
+<img width="546" alt="image" src="https://github.com/riskibowo/kelompok-4/assets/115862112/0038eab4-eaa8-425e-90c5-b808ee8594b4">
+```
+CREATE TABLE `pengguna` (
+  `id_pengguna` int(10) NOT NULL,
+  `username` varchar(30) NOT NULL,
+  `password` varchar(30) NOT NULL,
+  `nama_lengkap` varchar(30) NOT NULL,
+  `last_login` timestamp NULL DEFAULT NULL
+  ```
+
+  ```
+INSERT INTO `pengguna` (`id_pengguna`, `username`, `password`, `nama_lengkap`, `last_login`) VALUES
+(1, 'admin', 'admin', 'USER 1', '2016-11-11 13:57:22'),
+(3, 'admin', 'admin', 'USER 1', '2016-11-11 13:57:22'),
+(4, 'admin2', 'admin2', 'USER 2', '2016-11-11 13:57:23'),
+(5, 'admin3', 'admin3', 'USER 3', '2016-11-11 13:57:24'),
+(6, 'admin4', 'admin4', 'USER 4', '2016-11-11 13:57:25'),
+(7, 'admin6', 'admin6', 'USER 6', '2016-11-11 13:57:26');
+```
+![image](https://github.com/riskibowo/kelompok-4/assets/115862112/93cf10c1-a1b2-45b2-ad74-0b77a05184c9)
+
