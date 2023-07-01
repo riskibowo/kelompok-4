@@ -54,3 +54,51 @@ INSERT INTO `pengguna` (`id_pengguna`, `username`, `password`, `nama_lengkap`, `
 
 ![image](https://github.com/riskibowo/kelompok-4/assets/115862112/93cf10c1-a1b2-45b2-ad74-0b77a05184c9)
 
+```
+CREATE TABLE `surat_keluar` (
+  `no_surat` varchar(30) NOT NULL,
+  `tgl_surat` date DEFAULT NULL,
+  `perihal` text DEFAULT NULL,
+  `sifat` enum('BIASA','RAHASIA','SANGAT RAHASIA','SEGERA','PENTING','KONFIDENSIAL') NOT NULL,
+  `lampiran` int(3) DEFAULT NULL,
+  `kode_instansi` varchar(15) NOT NULL,
+  `no_surat_masuk` varchar(30) DEFAULT NULL,
+  `file` text DEFAULT NULL
+```
+
+```
+INSERT INTO `surat_keluar` (`no_surat`, `tgl_surat`, `perihal`, `sifat`, `lampiran`, `kode_instansi`, `no_surat_masuk`, `file`) VALUES
+('', '2023-08-02', 'surat edaran', 'BIASA', 10, 'Spp', '3122', 'pdf'),
+('1011', '2023-07-01', 'surat pengelola keuangan', 'RAHASIA', 1, 'ppp', '31111', 'pdf'),
+('10987', '2023-07-02', 'surat perjanjian', 'RAHASIA', 123, 'Spp', '3177', 'pdf'),
+('1574', '2023-07-03', 'surat penawaran', 'RAHASIA', 871, 'Sp', '31111', 'pdf '),
+('1877', '2023-07-18', 'surat keputusan', 'BIASA', 198, 'Skep', '3133', 'pdf'),
+('1933', '2023-07-05', 'surat permohonan', 'BIASA', 18, 'PPT', '3122', 'pdf');
+```
+![image](https://github.com/riskibowo/kelompok-4/assets/115862112/0d7d008d-8730-418c-a097-2418f1a7fb45)
+
+```
+CREATE TABLE `surat_masuk` (
+  `no_surat` varchar(30) NOT NULL,
+  `tgl_surat` date NOT NULL,
+  `tgl_diterima` date NOT NULL,
+  `perihal` text DEFAULT NULL,
+  `sifat` enum('BIASA','RAHASIA','SANGAT RAHASIA','SEGERA','PENTING','KONFIDENSIAL') DEFAULT NULL,
+  `lampiran` int(3) DEFAULT 0,
+  `kode_instansi` varchar(15) NOT NULL,
+  `file` text DEFAULT NULL
+```
+
+```
+INSERT INTO `surat_masuk` (`no_surat`, `tgl_surat`, `tgl_diterima`, `perihal`, `sifat`, `lampiran`, `kode_instansi`, `file`) VALUES
+('31111', '2023-07-02', '2023-07-31', 'surat pengunduran diri', 'BIASA', 3, 'Skep', 'pdf'),
+('3122', '2023-07-01', '2023-07-02', 'surat penugasan', 'RAHASIA', 2, 'PPT', 'pdf'),
+('3133', '2023-07-03', '2023-07-06', 'surat kerjasama bisnis', 'BIASA', 1, 'Skep', 'pdf'),
+('3144', '2023-07-21', '2023-07-29', 'surat persetujuan HRD meminta cuti', 'PENTING', 1, 'Sp', 'pdf'),
+('3177', '2023-07-24', '2023-07-27', 'surat lamaran kerja', 'BIASA', 1, 'ppp', 'pdf'),
+('3199', '2023-07-01', '2023-07-31', 'surat laporan transaksi', 'PENTING', 5, 'ppp', 'pdf');
+```
+![image](https://github.com/riskibowo/kelompok-4/assets/115862112/89e7ee1f-2185-47a2-9e61-0188c1775fe9)
+
+
+
