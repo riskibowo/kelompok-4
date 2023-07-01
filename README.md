@@ -1,6 +1,6 @@
 # Kelompok 4
 ```
-1. Faiz Fauzi Muzakki (312210278) "/Ketua/"
+1. Faiz Fauzi Muzakki (312210278) "/ Ketua /"
 
 2. Ivan Fathurrochman Achmad (312210271)
 3. Johanes Mula Febrian Sihombing (312210224)
