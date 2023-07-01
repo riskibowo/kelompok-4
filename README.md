@@ -10,7 +10,10 @@ ivan
 ![intro](https://github.com/riskibowo/kelompok-4/assets/115862112/ed983310-9ad2-4093-9395-e139c0b779bb)
 
 ```
-Setelah Anda memasukkan perintah "mysql -u root" di command prompt atau terminal, Anda akan diminta memasukkan kata sandi untuk pengguna root. Setelah memasukkan kata sandi, Anda akan masuk ke shell MySQL sebagai pengguna root. Dari sini, Anda dapat mulai menjalankan perintah MySQL dan mengelola database Anda
+Setelah Anda memasukkan perintah "mysql -u root" di command prompt atau terminal,
+Anda akan diminta memasukkan kata sandi untuk pengguna root. Setelah memasukkan kata sandi,
+Anda akan masuk ke shell MySQL sebagai pengguna root. Dari sini,
+ Anda dapat mulai menjalankan perintah MySQL dan mengelola database Anda
 ```
 
 ![pertama yg harus di lakukan](https://github.com/riskibowo/kelompok-4/assets/115862112/278b12c5-07ce-4f92-907c-58164c76852c)
@@ -99,6 +102,12 @@ INSERT INTO `surat_masuk` (`no_surat`, `tgl_surat`, `tgl_diterima`, `perihal`, `
   ('3199', '2023-07-01', '2023-07-31', 'surat laporan transaksi', 'PENTING', 5, 'ppp', 'pdf');
 ```
 ![image](https://github.com/riskibowo/kelompok-4/assets/115862112/89e7ee1f-2185-47a2-9e61-0188c1775fe9)
+
+```
+adalah nama tabel yang ingin Anda hapus kolomnya, dan "nama_kolom" adalah nama kolom yang ingin dihapus. Per
+```
+![Screenshot (125)](https://github.com/riskibowo/kelompok-4/assets/115862112/ed5a77a2-2709-424b-aba7-a0ac0466a941)
+
 
 
 
