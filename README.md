@@ -9,7 +9,7 @@
 ```
 
 ## ERD
-![image](https://github.com/riskibowo/kelompok-4/assets/115862112/6422e334-85cd-40ea-b491-9bd2e6f4a402)
+![image](https://github.com/riskibowo/kelompok-4/assets/115862112/452718b3-70d7-4ff6-9be8-01b8119f07ac)
 
 ## DDL (Data Definition Language), digunakan untuk mendefinisikan struktur tabel data.
 ![intro](https://github.com/riskibowo/kelompok-4/assets/115862112/ed983310-9ad2-4093-9395-e139c0b779bb)
